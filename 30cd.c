@@ -1,7 +1,12 @@
-/*30. Write a program to create a shared memory.
+/*
+============================================================================
+Name : 30cd.c
+Author : Rishika Gupta
+Date: 20/9/24
+30. Write a program to create a shared memory.
 c. detach the shared memory
 d. remove the shared memory*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -49,6 +54,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*Shared memory segment created with ID: 32785
 Attached to shared memory segment.
 Detached from shared memory segment.

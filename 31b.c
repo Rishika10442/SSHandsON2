@@ -1,6 +1,11 @@
-/*31. Write a program to create a semaphore and initialize value to the semaphore.
+/*
+============================================================================
+Name : 31b.c
+Author : Rishika Gupta
+Date: 20/9/24
+31. Write a program to create a semaphore and initialize value to the semaphore.
 b. create a counting semaphore*/
-
+//============================================================================
 #include <stdio.h>
 #include <semaphore.h>
 #include <fcntl.h> 
@@ -25,6 +30,7 @@ int main() {
     sem_unlink("/cs");
     return 0;
 }
+//============================================================================
 /*Counting semaphore created , at a time 2 processes can be in CS.
 Waiting to enter critical section...
 Entered critical section.

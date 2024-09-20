@@ -1,6 +1,11 @@
-/*9. Write a program to ignore a SIGINT signal then reset the default action of the SIGINT
+/*
+============================================================================
+Name : 9.c
+Author : Rishika Gupta
+Date: 19/9/24
+9. Write a program to ignore a SIGINT signal then reset the default action of the SIGINT
 signal - Use signal system call.*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,7 +37,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Ignoring SIGINT
 going to sleep , SIGINT wont work now
 ^C^C

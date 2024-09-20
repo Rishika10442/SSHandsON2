@@ -1,4 +1,9 @@
-/*5. Write a program to print the system limitation of
+/*
+============================================================================
+Name : 5.c
+Author : Rishika Gupta
+Date: 18/9/24
+5. Write a program to print the system limitation of
 a. maximum length of the arguments to the exec family of functions.
 b. maximum number of simultaneous process per user id.
 c. number of clock ticks (jiffy) per second.
@@ -6,7 +11,7 @@ d. maximum number of open files
 e. size of a page
 f. total number of pages in the physical memory
 g. number of currently available pages in the physical memory.*/
-
+//============================================================================
 #include <stdio.h>
 #include <unistd.h>
 #include <errno.h>
@@ -42,7 +47,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Maximum length of arguments to exec family of functions: 2097152
 Maximum number of simultaneous processes per user: 30799
 Number of clock ticks per second: 100

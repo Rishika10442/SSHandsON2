@@ -1,6 +1,11 @@
-/*10. Write a separate program using sigaction system call to catch the following signals.
+/*
+============================================================================
+Name : 10b.c
+Author : Rishika Gupta
+Date: 19/9/24
+10. Write a separate program using sigaction system call to catch the following signals.
 b. SIGINT*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,4 +27,5 @@ int main() {
 
     return 0;
 }
+//============================================================================
 //^CCaught signal SIGINT

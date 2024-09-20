@@ -1,5 +1,10 @@
-/*24. Write a program to create a message queue and print the key and message queue id.*/
-
+/*
+============================================================================
+Name : 24.c
+Author : Rishika Gupta
+Date: 20/9/24
+24. Write a program to create a message queue and print the key and message queue id.*/
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,6 +37,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 //ipcs-q to see all current queues
 
 /*

@@ -1,6 +1,11 @@
-/*22. Write a program to wait for data to be written into FIFO within 10 seconds, use select
+/*
+============================================================================
+Name : 22.c
+Author : Rishika Gupta
+Date: 19/9/24
+22. Write a program to wait for data to be written into FIFO within 10 seconds, use select
 system call with FIFO.*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,6 +49,6 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 //Data received from FIFO: Hello from another terminal
 //Timeout: No data received.

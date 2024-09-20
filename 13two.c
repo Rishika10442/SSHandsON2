@@ -1,7 +1,12 @@
-/*13. Write two programs: first program is waiting to catch SIGSTOP signal, the second program
+/*13.
+============================================================================
+Name : 13two.c
+Author : Rishika Gupta
+Date: 19/9/24
+ Write two programs: first program is waiting to catch SIGSTOP signal, the second program
 will send the signal (using kill system call). Find out whether the first program is able to catch
 the signal or not.*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,7 +30,7 @@ int main() {
    
     return 0;
 }
-
+//============================================================================
 /*Enter the PID of the process to send SIGSTOP: 4478
 SIGSTOP signal sent to process 4478
 */

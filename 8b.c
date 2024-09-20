@@ -1,6 +1,11 @@
-/*8. Write a separate program using signal system call to catch the following signals.
+/*
+============================================================================
+Name : 8b.c
+Author : Rishika Gupta
+Date: 18/9/24
+8. Write a separate program using signal system call to catch the following signals.
 b. SIGINT*/
-
+//============================================================================
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
@@ -19,4 +24,5 @@ while (1) {
 }
 return 0;
 }
+//============================================================================
 //Caught SIGINT (Interrupt from keyboard)

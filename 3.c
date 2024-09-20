@@ -1,4 +1,10 @@
-/*3. Write a program to set (any one) system resource limit. Use setrlimit system call.*/
+/*
+============================================================================
+Name : 3.c
+Author : Rishika Gupta
+Date: 18/9/24
+3. Write a program to set (any one) system resource limit. Use setrlimit system call.*/
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/resource.h>
@@ -33,7 +39,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Limit on number of open files:
   Soft limit: 1024
   Hard limit: 1048576

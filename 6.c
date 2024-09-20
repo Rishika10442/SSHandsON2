@@ -1,6 +1,9 @@
 /*6. Write a simple program to create three threads.*/
-
-
+/*============================================================================
+Name : 6.c
+Author : Rishika Gupta
+Date: 18/9/24*/
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -36,7 +39,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Thread 1 is running
 Thread 2 is running
 Thread 3 is running

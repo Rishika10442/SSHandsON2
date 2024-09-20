@@ -1,5 +1,9 @@
+/*============================================================================
+Name : 20write.c
+Author : Rishika Gupta
+Date: 19/9/24*/
 //20. Write two programs so that both can communicate by FIFO -Use one way communication.
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,6 +26,6 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 //Message written to FIFO: Hello from writer!
 

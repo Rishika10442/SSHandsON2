@@ -1,7 +1,12 @@
-/*Write a separate program (for each time domain) to set a interval timer in 10sec and
+/*
+============================================================================
+Name : 1a_microsec.c
+Author : Rishika Gupta
+Date: 18/9/24
+Write a separate program (for each time domain) to set a interval timer in 10sec and
 10micro second
 a. ITIMER_REAL*/
-
+//============================================================================
 #include <stdio.h>
 #include <signal.h>
 #include <sys/time.h>
@@ -34,6 +39,6 @@ int main() {
     
     return 0;
 }
-
+//============================================================================
 //Timer expired!Signal is caught Exiting program...
 

@@ -1,5 +1,12 @@
-//8. Write a separate program using signal system call to catch the following signals
+/*
+============================================================================
+Name : 8g.c
+Author : Rishika Gupta
+Date: 18/9/24
+8. Write a separate program using signal system call to catch the following signals
 //g. SIGPROF (use setitimer system call)
+*/
+//============================================================================
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -39,6 +46,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*timer is set
 Caught SIGPROF (Profiling Timer Alarm)
 Sleeping...

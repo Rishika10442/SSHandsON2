@@ -1,6 +1,11 @@
-/*8. Write a separate program using signal system call to catch the following signals.
+/*
+============================================================================
+Name : 8a.c
+Author : Rishika Gupta
+Date: 18/9/24
+8. Write a separate program using signal system call to catch the following signals.
 a. SIGSEGV*/
-
+//============================================================================
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
@@ -25,6 +30,6 @@ int main() {
 
 return 0;
 }
-
+//============================================================================
 //Caught SIGSEGV (Segmentation Fault)
 

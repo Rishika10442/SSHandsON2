@@ -1,7 +1,11 @@
-/*8. Write a separate program using signal system call to catch the following signals.
-
+/*
+============================================================================
+Name : 8c.c
+Author : Rishika Gupta
+Date: 18/9/24
+8. Write a separate program using signal system call to catch the following signals.
 c. SIGFPE*/
-
+//============================================================================
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
@@ -18,6 +22,6 @@ signal(SIGFPE, handle_error);
 int x = 2 / 0;
 return 0;
 }
- 
+ //============================================================================
 //Caught SIGFPE (Floating Point Exception)
 

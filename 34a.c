@@ -1,6 +1,11 @@
-/*34. Write a program to create a concurrent server.
+/*
+============================================================================
+Name : 34a.c
+Author : Rishika Gupta
+Date: 20/9/24
+34. Write a program to create a concurrent server.
 a. use fork*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -91,7 +96,7 @@ int main() {
     close(sfd);
     return 0;
 }
-
+//============================================================================
 /*Server is listening on port 8080...
 Server has forked child with id 7262 to handle client
 Server has forked child with id 7266 to handle client

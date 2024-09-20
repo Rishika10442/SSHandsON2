@@ -1,6 +1,11 @@
-//7. Write a simple program to print the created thread ids.
-
-
+/*
+============================================================================
+Name : 7.c
+Author : Rishika Gupta
+Date: 18/9/24
+7. Write a simple program to print the created thread ids.
+//============================================================================
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -36,6 +41,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*Thread 1 is running
 Thread ID:139870118868672 
 Thread 2 is running

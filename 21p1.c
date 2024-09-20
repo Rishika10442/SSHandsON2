@@ -1,5 +1,10 @@
-//21. Write two programs so that both can communicate by FIFO -Use two way communications.
+/*============================================================================
+Name : 21p1.c
+Author : Rishika Gupta
+Date: 19/9/24*/
 
+//21. Write two programs so that both can communicate by FIFO -Use two way communications.
+//============================================================================
 
 
 #include <stdio.h>
@@ -39,5 +44,6 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*Message sent to Program 2
 Message received from Program 2: Hello from Program 2!*/

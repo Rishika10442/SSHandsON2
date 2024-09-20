@@ -1,5 +1,9 @@
+/*============================================================================
+Name : 29.c
+Author : Rishika Gupta
+Date: 20/9/24
 //29. Write a program to remove the message queue.
-
+*///============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -33,6 +37,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*msg queue created
 Message queue removed successfully.
 */

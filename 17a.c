@@ -1,6 +1,11 @@
-/*17. Write a program to execute ls -l | wc.
+/*
+============================================================================
+Name : 17a.c
+Author : Rishika Gupta
+Date: 19/9/24
+17. Write a program to execute ls -l | wc.
 a. use dup */
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -55,5 +60,5 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 //36     317    2326

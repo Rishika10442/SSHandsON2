@@ -1,6 +1,11 @@
-/*23. Write a program to print the maximum number of files can be opened within a process and
+/*
+============================================================================
+Name : 23.c
+Author : Rishika Gupta
+Date: 19/9/24
+23. Write a program to print the maximum number of files can be opened within a process and
 size of a pipe (circular buffer).*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -38,7 +43,7 @@ int main() {
     print_pipesize();
     return 0;
 }
-
+//============================================================================
 /*Maximum number of open files: 1024
 Size of the pipe buffer: 1048576 bytes
 */

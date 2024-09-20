@@ -1,5 +1,10 @@
+/*============================================================================
+Name : 33client.c
+Author : Rishika Gupta
+Date: 20/9/24*/
+
 //33. Write a program to communicate between two machines using socket.
-//
+////============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -41,6 +46,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*Hello message sent to server
 Message from server: Hello from server
 */

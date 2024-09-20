@@ -1,6 +1,11 @@
-/*12. Write a program to create an orphan process. Use kill system call to send SIGKILL signal to
+/*
+============================================================================
+Name : 12.c
+Author : Rishika Gupta
+Date: 19/9/24
+12. Write a program to create an orphan process. Use kill system call to send SIGKILL signal to
 the parent process from the child process.*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -31,7 +36,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Parent  5735 is alive. Waiting for signal from child...
 Child process 5736
 Sending SIGKILL to parent 5735 

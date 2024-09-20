@@ -1,6 +1,11 @@
-/*14. Write a simple program to create a pipe, write to the pipe, read from pipe and display on
+/*
+============================================================================
+Name : 14.c
+Author : Rishika Gupta
+Date: 19/9/24
+14. Write a simple program to create a pipe, write to the pipe, read from pipe and display on
 the monitor.*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <unistd.h>
@@ -22,6 +27,6 @@ int main() {
     
     return 0;
 }
-
+//============================================================================
 //Message received: Hello pipe!
 

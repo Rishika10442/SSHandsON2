@@ -1,8 +1,13 @@
-/*30. Write a program to create a shared memory.
+/*
+============================================================================
+Name : 30ab.c
+Author : Rishika Gupta
+Date: 20/9/24
+30. Write a program to create a shared memory.
 a. write some data to the shared memory
 b. attach with O_RDONLY and check whether you are able to overwrite.
  */
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -57,6 +62,7 @@ printf("Trying to overwrite shared memory...\n");
   
     return 0;
 }
+//============================================================================
 /*Data written to shared memory
 Trying to overwrite shared memory...
 Segmentation fault (core dumped)

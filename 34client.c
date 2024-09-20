@@ -1,3 +1,10 @@
+/*============================================================================
+Name : 34client.c
+Author : Rishika Gupta
+Date: 20/9/24
+Description: client for q34
+*/
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -57,6 +64,7 @@ int main() {
     close(sock);
     return 0;
 }
+//============================================================================
 /*
 client 1
 Connected to the server. Type your message:

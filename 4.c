@@ -1,6 +1,11 @@
-/*Write a program to measure how much time is taken to execute 100 getppid ( )
+/*
+============================================================================
+Name : 4.c
+Author : Rishika Gupta
+Date: 18/9/24
+Write a program to measure how much time is taken to execute 100 getppid ( )
 system call. Use time stamp counter*/
-
+//============================================================================
 #include <stdio.h>
 #include <unistd.h>
 
@@ -30,6 +35,6 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 //Time taken for 100 getppid() calls: 618160
 

@@ -1,6 +1,11 @@
-/*27. Write a program to receive messages from the message queue.
+/*
+============================================================================
+Name : 27b.c
+Author : Rishika Gupta
+Date: 20/9/24
+27. Write a program to receive messages from the message queue.
 b. with IPC_NOWAIT as a flag*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,14 +27,18 @@ int main() {
     struct msg_buffer message;
     ssize_t msg_size;
 
-   
+ key_t key = ftok("/tmp", 'A'); 
+    if (key == -1) {
+        perror("ftok");
+        exit(EXIT_FAILURE);
+    }
 
-   
-    msgid = msgget(1090846721, 0666);
+    
+    msgid = msgget(key, 0666);
     if (msgid == -1) {
         perror("msgget");
         exit(EXIT_FAILURE);
-    }
+    }   
 
    
     for (int i = 0; i < 5; i++) {
@@ -51,7 +60,8 @@ int main() {
 
     return 0;
 }
-/*eceived: Message 4
+//============================================================================
+/*Received: Message 4
 Received: Message 5
 No messages available right now.
 No messages available right now.

@@ -1,5 +1,11 @@
-/*Write a program to print the system resource limits. Use getrlimit
+/*
+============================================================================
+Name : 2.c
+Author : Rishika Gupta
+Date: 18/9/24
+Write a program to print the system resource limits. Use getrlimit
 Name-2.c
+============================================================================
 */
 
 #include <stdio.h>
@@ -33,7 +39,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*CPU time:
   Soft limit: -1
   Hard limit: -1

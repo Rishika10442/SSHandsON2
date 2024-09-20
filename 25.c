@@ -1,4 +1,9 @@
-/*25. Write a program to print a message queue's (use msqid_ds and ipc_perm structures)
+/*
+============================================================================
+Name : 25.c
+Author : Rishika Gupta
+Date: 20/9/24
+25. Write a program to print a message queue's (use msqid_ds and ipc_perm structures)
 a. access permission
 b. uid, gid
 c. time of last message sent and received
@@ -7,7 +12,7 @@ d. size of the queue
 f. number of messages in the queue
 g. maximum number of bytes allowed
 h. pid of the msgsnd and msgrcv*/
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,12 +42,17 @@ void print_message_queue_info(int msgid) {
 }
 
 int main() {
-    key_t key = 1090846721;
-
+   // key_t key = 1090846721;
+key_t key;
+ key = ftok("/tmp",'A');
+ if (key == -1) {
+        perror("ftok");
+        exit(EXIT_FAILURE);
+    }    
     int msgid;
 
+   msgid = msgget(key, IPC_CREAT | 0666);
    
-    msgid = msgget(key, 0666);
     if (msgid == -1) {
         perror("msgget");
         exit(EXIT_FAILURE);
@@ -52,8 +62,8 @@ int main() {
 
     return 0;
 }
-
-/*ccess Permissions: 666
+//============================================================================
+/*Access Permissions: 666
 UID: 1000
 GID: 1000
 Last Message Sent: Thu Jan  1 05:30:00 1970

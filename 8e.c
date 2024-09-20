@@ -1,7 +1,12 @@
-/*Write a separate program using signal system call to catch the following signals.
+/*
+============================================================================
+Name : 8e.c
+Author : Rishika Gupta
+Date: 18/9/24
+Write a separate program using signal system call to catch the following signals.
 e. SIGALRM (use setitimer system call)
 */
-
+//============================================================================
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
@@ -26,5 +31,6 @@ int main(){
 
 return 0;
 }
+//============================================================================
 //Caught SIGALRM (Alarm Signal)
 

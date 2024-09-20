@@ -1,6 +1,11 @@
-/*31. Write a program to create a semaphore and initialize value to the semaphore.
+/*
+//============================================================================
+Name : 31a.c
+Author : Rishika Gupta
+Date: 20/9/24
+31. Write a program to create a semaphore and initialize value to the semaphore.
 a. create a binary semaphore*/
-
+//============================================================================
 #include <stdio.h>
 #include <semaphore.h>
 #include <fcntl.h>
@@ -34,7 +39,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Semaphore created and initialized to 1.
 Waiting to enter critical section...
 Entered critical section.

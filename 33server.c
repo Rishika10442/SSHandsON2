@@ -1,5 +1,10 @@
-/*33. Write a program to communicate between two machines using socket.*/
-
+/*
+============================================================================
+Name : 33server.c
+Author : Rishika Gupta
+Date: 20/9/24
+33. Write a program to communicate between two machines using socket.*/
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,7 +53,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Server is listening on port 8080
 Message from client: Hello from client
 Hello message sent to client

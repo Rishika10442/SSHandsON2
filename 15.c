@@ -1,5 +1,11 @@
-//15. Write a simple program to send some data from parent to the child process.
-
+//
+/*============================================================================
+Name : 15.c
+Author : Rishika Gupta
+Date: 19/9/24
+15. Write a simple program to send some data from parent to the child process.
+//============================================================================
+*/
 
 #include <stdio.h>
 #include <unistd.h>
@@ -32,6 +38,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 //parent is writing to child
 //Child process: Hello child!
 

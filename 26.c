@@ -1,5 +1,9 @@
+/*============================================================================
+Name : 26.c
+Author : Rishika Gupta
+Date: 20/9/24*/
 //26. Write a program to send messages to the message queue. Check $ipcs -q
-
+//============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +13,7 @@
 #include <errno.h>
 #include <string.h>
 
-#define PROJECT_ID 'A'
+
 #define PERMISSIONS 0666
 
 
@@ -23,8 +27,8 @@ int main() {
     int msgid;
     struct msg_buffer message;
 
-
-    msgid = msgget(1090846721, IPC_CREAT | PERMISSIONS);
+key = ftok("/tmp",'A');
+    msgid = msgget(key, IPC_CREAT | PERMISSIONS);
     if (msgid == -1) {
         perror("msgget");
         exit(EXIT_FAILURE);
@@ -45,6 +49,7 @@ int main() {
 
     return 0;
 }
+//============================================================================
 /*------ Message Queues --------
 key        msqid      owner      perms      used-bytes   messages    
 0x41050001 0          rishika-gu 666        500          5     */

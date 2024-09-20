@@ -1,5 +1,11 @@
-//28. Write a program to change the exiting message queue permission. (use msqid_ds structure)
-
+/*
+============================================================================
+Name : 28.c
+Author : Rishika Gupta
+Date: 20/9/24
+28. Write a program to change the exiting message queue permission. (use msqid_ds structure)
+//============================================================================
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,7 +23,18 @@ int main() {
     int msgid;
 
 
-    msgid = msgget(1090846721, 0666);
+key_t  key = ftok("/tmp", 'A'); 
+    if (key == -1) {
+        perror("ftok");
+        exit(EXIT_FAILURE);
+    }
+
+
+    msgid = msgget(key, 0666);
+    if (msgid == -1) {
+        perror("msgget");
+        exit(EXIT_FAILURE);
+    }
     if (msgid == -1) {
         perror("msgget");
         exit(EXIT_FAILURE);
@@ -52,7 +69,7 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 /*Current Permissions: 666
 Updated Permissions: 777
 */

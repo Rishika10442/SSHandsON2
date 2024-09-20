@@ -1,6 +1,11 @@
-/*34. Write a program to create a concurrent server.
+/*
+============================================================================
+Name : 34b.c
+Author : Rishika Gupta
+Date: 20/9/24
+34. Write a program to create a concurrent server.
 b. use pthread_create*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -86,7 +91,7 @@ int main() {
     close(server_fd);
     return 0;
 }
-
+//============================================================================
 /*Server is listening on port 8080...
 Thread 139973428770496 started to handle client.
 Thread 139973420377792 started to handle client.

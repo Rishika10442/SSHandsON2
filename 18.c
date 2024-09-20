@@ -1,6 +1,11 @@
-/*18. Write a program to find out total number of directories on the pwd.
+/*
+============================================================================
+Name : 18.c
+Author : Rishika Gupta
+Date: 19/9/24
+18. Write a program to find out total number of directories on the pwd.
 execute ls -l | grep ^d | wc ? Use only dup2.*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -75,6 +80,6 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 //1
 

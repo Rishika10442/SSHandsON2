@@ -1,6 +1,11 @@
-/*17. Write a program to execute ls -l | wc.
+/*
+============================================================================
+Name : 17c.c
+Author : Rishika Gupta
+Date: 19/9/24
+17. Write a program to execute ls -l | wc.
 c. use fcntl*/
-
+//============================================================================
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -55,6 +60,6 @@ int main() {
 
     return 0;
 }
-
+//============================================================================
 //37     326    2392
 

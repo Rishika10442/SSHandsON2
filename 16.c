@@ -1,6 +1,10 @@
+/*============================================================================
+Name : 16.c
+Author : Rishika Gupta
+Date: 19/9/24*/
 //16. Write a program to send and receive data from parent to child vice versa. Use two way
 //communication.
-
+//============================================================================
 
 #include <stdio.h>
 #include <unistd.h>
@@ -49,5 +53,6 @@ pipe(cp);
 
     return 0;
 }
+//============================================================================
 /*Child received: Hello from parent!
 Parent received: Hello from child!*/
